@@ -5,64 +5,55 @@
   "description": "Prepare to be ratioed by gender",
   "subjects": [
     {
-        "name": "Build a gas compressor",
-        "sections": [
+      "name": "Build a gas compressor",
+      "sections": [
+        {
+          "name": "To think like an engineer",
+          "posM": 4,
+          "negM": 0,
+          "questions": [
             {
-                "name": "To think like an engineer",
-                "posM": 4,
-                "negM":0,
-                "questions": [
-                    {
-                "type": "NUM",
-                "image": "https://ibb.co/KjMHL7WF",
-                "text": "In large gas-compression stations (for example, on a natural gas pipeline), the compression is done in several stages as illustrated in the figure. At the end of each stage, the compressed gas is cooled at constant pressure back to the temperature at the inlet of the compressor ($T_{1}$ = 300K). Consider a compression station that is to compress 10 moles of methane from $P_1$ to $P_{N+1}$ in N stages, where each stage has an isentropic compressor coupled to a reversible, isobaric cooling unit. What is the magnitude of work done if the compression is carried out in a single isoentropic process (in kJ)? (You are given that $\\frac{P_{N+!}{P_1}=40$ and the adiabatic index ($\\gamma$) of methane is 1.31. The the value of universal gas constant to be 8.314 in SI units)",
-                "answer": 147
-                
-            },
-            
-            {
-                "type": "NUM",
-                "image": "https://ibb.co/KjMHL7WF",
-                "text": "In large gas-compression stations (for example, on a natural gas pipeline), the compression is done in several stages as illustrated in the figure. At the end of each stage, the compressed gas is cooled at constant pressure back to the temperature at the inlet of the compressor ($T_{1}$ = 300K). Consider a compression station that is to compress 10 moles of methane from $P_1$ to $P_{N+1}$ in N stages, where each stage has an isentropic compressor coupled to a reversible, isobaric cooling unit. You are to design the outlet pressures in such a way that the work done is minimized. What will the ratio of $P_4$ and $P_2$ when there are 10 stages of the process. (You are given that $\\frac{P_{N+!}{P_1}=40$ and the adiabatic index ($\\gamma$) of methane is 1.31. The the value of universal gas constant to be 8.314 in SI units)",
-                "answer": 2
-                
+              "type": "NUM",
+              "image": "https://i.ibb.co/mCL7Xt46/image.png",
+              "text": "In large gas-compression stations (e.g., on a natural gas pipeline), compression is done in several stages as illustrated. After each stage, the gas is cooled at constant pressure back to the inlet temperature ($T_1 = 300\\,\\text{K}$). A station compresses 10 moles of methane from $P_1$ to $P_{N+1}$ in one isentropic stage. What is the total work done (in kJ)? (Given: $\\frac{P_{N+1}}{P_1} = 40$, $\\gamma = 1.31$, $R = 8.314$ SI units)",
+              "answer": 147
             },
             {
-                "type": "NUM",
-                "image": "https://ibb.co/KjMHL7WF",
-                "text": "In large gas-compression stations (for example, on a natural gas pipeline), the compression is done in several stages as illustrated in the figure. At the end of each stage, the compressed gas is cooled at constant pressure back to the temperature at the inlet of the compressor ($T_{1}$ = 300K). Consider a compression station that is to compress 10 moles of methane from $P_1$ to $P_{N+1}$ in N stages, where each stage has an isentropic compressor coupled to a reversible, isobaric cooling unit. You are to design the outlet pressures in such a way that the work done is minimized. What is the magnitude of the work done when there are 10 stages of the process? (in kJ). (You are given that $\\frac{P_{N+!}{P_1}=40$ and the adiabatic index ($\\gamma$) of methane is 1.31. The the value of universal gas constant to be 8.314 in SI units)",
-                "answer": 96
-                
+              "type": "NUM",
+              "image": "https://i.ibb.co/mCL7Xt46/image.png",
+              "text": "In a 10-stage gas compressor, what is the pressure ratio $\\frac{P_4}{P_2}$ required to minimize work? (Given: $\\frac{P_{N+1}}{P_1} = 40$, $\\gamma = 1.31$)",
+              "answer": 2
             },
             {
-                "type": "NUM",
-                "image": "https://ibb.co/KjMHL7WF",
-                "text": "In large gas-compression stations (for example, on a natural gas pipeline), the compression is done in several stages as illustrated in the figure. At the end of each stage, the compressed gas is cooled at constant pressure back to the temperature at the inlet of the compressor ($T_{1}$ = 300K). Consider a compression station that is to compress 10 moles of methane from $P_1$ to $P_{N+1}$ in N stages, where each stage has an isentropic compressor coupled to a reversible, isobaric cooling unit. You are to design the outlet pressures in such a way that the work done is minimized. What is the percentage increase in the work being done when we put it through a single isentropic compression instead of the 10-fold process?. (You are given that $\\frac{P_{N+!}{P_1}=40$ and the adiabatic index ($\\gamma$) of methane is 1.31. The the value of universal gas constant to be 8.314 in SI units)",
-                "answer": 53
-                
+              "type": "NUM",
+              "image": "https://i.ibb.co/mCL7Xt46/image.png",
+              "text": "In a 10-stage gas compressor, what is the total work done (in kJ) if the outlet pressures are optimally chosen to minimize work? (Given: $\\frac{P_{N+1}}{P_1} = 40$, $\\gamma = 1.31$, $R = 8.314$)",
+              "answer": 96
             },
-             {
-                "type": "NUM",
-                "image": "https://ibb.co/KjMHL7WF",
-                "text": "In large gas-compression stations (for example, on a natural gas pipeline), the compression is done in several stages as illustrated in the figure. At the end of each stage, the compressed gas is cooled at constant pressure back to the temperature at the inlet of the compressor ($T_{1}$ = 300K). Consider a compression station that is to compress 10 moles of methane from $P_1$ to $P_{N+1}$ in N stages, where each stage has an isentropic compressor coupled to a reversible, isobaric cooling unit. You are to design the outlet pressures in such a way that the work done is minimized. One such heavily funded design wishes to use huge amounts of the coupled units (N>>10000). What will be the work done in such a case? (in kJ). (You are given that $\\frac{P_{N+!}{P_1}=40$ and the adiabatic index ($\\gamma$) of methane is 1.31. The the value of universal gas constant to be 8.314 in SI units)",
-                "answer": 92
-                
+            {
+              "type": "NUM",
+              "image": "https://i.ibb.co/mCL7Xt46/image.png",
+              "text": "What is the percentage increase in work done if the compression is carried out in a single isentropic stage instead of 10 optimized stages? (Given: $\\frac{P_{N+1}}{P_1} = 40$, $\\gamma = 1.31$)",
+              "answer": 53
             },
-             {
-                "type": "NUM",
-                "image": "https://ibb.co/KjMHL7WF",
-                "text": "In large gas-compression stations (for example, on a natural gas pipeline), the compression is done in several stages as illustrated in the figure. At the end of each stage, the compressed gas is cooled at constant pressure back to the temperature at the inlet of the compressor ($T_{1}$ = 300K). Consider a compression station that is to compress 10 moles of methane from $P_1$ to $P_{N+1}$ in N stages, where each stage has an isentropic compressor coupled to a reversible, isobaric cooling unit. You are to design the outlet pressures in such a way that the work done is minimized. What is the percentage increase in the work being done when we put it through a single isentropic instead of the heavily funded process? . (You are given that $\\frac{P_{N+!}{P_1}=40$ and the adiabatic index ($\\gamma$) of methane is 1.31. The the value of universal gas constant to be 8.314 in SI units)",
-                "answer": 60
-                
+            {
+              "type": "NUM",
+              "image": "https://i.ibb.co/mCL7Xt46/image.png",
+              "text": "If the number of stages approaches a very large number (e.g., $N \\gg 10000$), what is the work done in such a case (in kJ)? (Given: $\\frac{P_{N+1}}{P_1} = 40$, $\\gamma = 1.31$, $R = 8.314$)",
+              "answer": 92
+            },
+            {
+              "type": "NUM",
+              "image": "https://i.ibb.co/mCL7Xt46/image.png",
+              "text": "What is the percentage increase in work done if compression is done in a single isentropic stage instead of an idealized process with infinite stages? (Given: $\\frac{P_{N+1}}{P_1} = 40$, $\\gamma = 1.31$)",
+              "answer": 60
             }
-                ]
-            }
-        ]
-        
+          ]
+        }
+      ]
     },
-         {         
-              
-              "name": "To think like an undergrad",
+    {
+      "name": "To think like an undergrad",
       "sections": [
         {
           "name": "Thermodynamics",
@@ -71,31 +62,29 @@
           "questions": [
             {
               "type": "SMCQ",
-              "text": "A fan that consumes 20 W of electric power when operating is claimed to discharge air from a ventilated room at a rate of 1.0 kg/s. What should the minimum discharge velocity be to make their claim valid?",
+              "text": "A fan that consumes 20 W of electric power is claimed to discharge air from a ventilated room at 1.0 kg/s. What should the minimum discharge velocity be to validate this claim?",
               "options": ["9.8 m/s", "19.6 m/s", "6.3 m/s", "12.6 m/s"],
               "answer": 2
             },
             {
               "type": "SMCQ",
-              "text": "You are standing in a breezy room at 20°C. Determine the total rate of heat transfer from your body if the exposed surface area and the average outer surface  temperature of the your body is 1.6 $m^2$ and 29°C, respectively, and Newton's heat transfer coefficient is 6 W/$m^2$·°C",
+              "text": "You are in a breezy room at 20°C. If your body has an exposed area of 1.6 m² and an outer surface temperature of 29°C, with a heat transfer coefficient of 6 W/m²·°C, what is the total rate of heat transfer from your body?",
               "options": ["86.4", "81.7", "170.3", "168.1"],
               "answer": 4
             },
             {
               "type": "NUM",
-              "text": "Saturated steam at 1 atm condenses on a vertical plate that is maintained at 90°C by circulating cooling water through the other side. The condensate drips off the plate at the bottom, into a vessel of capacity 5L also at 90°C. The rate of heat transfer by condensation to the plate is 1150 kJ/s. Determine the time intervals in which the vessel needs to be replaced to prevent spilling. Take the numerical values of latent heat of vaporization of water to be 2257x$10^{3}$ and specific heat capacity of water to be 4300 in respective SI units.",
+              "text": "Saturated steam at 1 atm condenses on a vertical plate at 90°C. The condensate drips into a 5L vessel at the same temperature. Given a condensation heat transfer rate of 1150 kJ/s, latent heat of vaporization = 2257×10³, and water's specific heat capacity = 4300, how often (in seconds) should the vessel be replaced to prevent overflow?",
               "answer": 10
             },
             {
               "type": "NUM",
-              "text": "Consider two bodies A and B of radius $r_{1}$ = 1000km and $r_{2}$ = 4000km ($r_{2}>>r{1}$) kept at a distance d = $\\sqrt{5.6\\pi}$ x $10^{11}$ km from each other. B is maintained at a temperature $T_{0}$ = 1000 K and A is maintained at a temperature 0 K. Due to heat transfer occuring from radiative processes, A is heated up by B. However, A has a protective outside atmosphere that sheathes it from radiative heating. It reflects $\\alpha = 0.8$ of the incident radiation and transmits the rest. Furthermore, the surface of B, absorbs $\\beta = 0.2$ of the incident radiation and reflects the rest. What is the heat received per unit second by A? (Take Stefan Boltzmann constant to be 5.6 x $10^{-8}$ in SI units)",
+              "text": "Two bodies A ($r_1$ = 1000 km) and B ($r_2$ = 4000 km) are separated by $d = \\sqrt{5.6\\pi} \\times 10^{11}$ km. B is at 1000 K and A is at 0 K. A reflects $\\alpha = 0.8$ of incoming radiation. B reflects 0.8 and absorbs 0.2 of incident radiation. How much heat per second does A receive? (Use Stefan–Boltzmann constant $\\sigma = 5.6 \\times 10^{-8}$ SI units)",
               "answer": 4
             }
-            
           ]
         }
       ]
-
     }
   ]
 }
