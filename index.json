@@ -1,8 +1,9 @@
 [
   {
-    "name": "Thermodynamics in Mechanical Engineering ",
-    "author": "Debaditya",
-    "description": "Thermodynamics",
-    "file": "https://raw.githubusercontent.com/MajumderDebaditya/librebam/main/t.json"
+    "name": "Thermodynamics in Mechanical Engineering",
+    "filename": "t.json",
+    "author": "Debaditya Majumder",
+    "description": "A test of undergraduate level thermodynamics",
+    "url": "https://raw.githubusercontent.com/MajumderDebaditya/librebam/main/t.json"
   }
 ]
